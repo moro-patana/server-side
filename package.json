@@ -4,7 +4,7 @@
   "description": "A series of exercises for getting a JavaScript-based server-side application up and running",
   "main": "index.js",
   "scripts": {
-    "serve": "node ./index.js"
+    "serve": "nodemon -e js,njk ./index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/moro-patana/server-side#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
