@@ -1,4 +1,3 @@
-console.log('Greetings from Node and index.js! 🙃');
 
 // We need Express to act as our application server
 const express = require('express');
